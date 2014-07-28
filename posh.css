@@ -204,3 +204,35 @@ nav ul li a, nav ul li a:focus {
 	width: 700px;
 	margin: 0 auto;
 }
+
+.contact {
+	background: #e0ae59;
+	position: relative; 
+	text-align: center;
+}
+
+.contact-pic {
+/*height: 518px;*/
+/*height: 100%;*/
+height: 70%;
+width: 100%;
+background: url(images/unnamed-11.jpg);
+
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+/*background-position-y: -120px;*/
+/*background-position-y: -480px;*/
+opacity: .4;
+}
+
+.contact-title {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.contact-info {
+	position: absolute;
+	top: 50px;
+	left: 35%;
+}
