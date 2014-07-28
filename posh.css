@@ -1,3 +1,5 @@
+/*gold: #e0ae59*/
+
 body {
 	font-family: 'Muli', sans-serif;
 }
@@ -5,7 +7,8 @@ body {
 body {
 /*margin: 0;
 padding: 0;*/
-background: #CCC;
+/*background: #CCC;*/
+background: #000;
 /*font-size: 20px;*/
 /*line-height: 26px;*/
 /*font-weight: 400;*/
@@ -38,7 +41,8 @@ background: url(images/unnamed-10.jpg);
 background-size: cover;
 background-position: center center;
 background-attachment: fixed;
-background-position-y: -120px;
+/*background-position-y: -120px;*/
+background-position-y: -590px;
 }
 header {
 margin: 0 0 -100px 0;
@@ -77,6 +81,7 @@ position: absolute;
 
 nav li {
 	display: inline-block;
+	margin-top: 25px;
 }
 
 nav ul li a {
@@ -90,7 +95,7 @@ nav ul li a {
 
 nav ul li a, nav ul li a:focus {
 	padding: 0 15px;
-	height: 100px;
+	height: 52px;
 	color: #000;
 	font-weight: 900;
 	text-decoration: none;
@@ -124,7 +129,9 @@ nav ul li a, nav ul li a:focus {
 .about-band {
 	font-family:'Muli', sans-serif;
 	text-transform: uppercase;
-	padding-top: 10px;
+	/*padding-top: 10px;*/
+	padding-top: 20px;
+	color: white;
 }
 .title-band {
 	font-family:'Muli', sans-serif;
@@ -132,4 +139,39 @@ nav ul li a, nav ul li a:focus {
 	font-size: 27px;
 	text-decoration: underline;
 	padding-top: 15px;
+	color: white;
+}
+
+.ind-photo {
+	float: left;
+	padding-right: 15px;
+	margin-top: 23px;
+}
+
+.navied {
+	margin-top: 44px;
+}
+
+.tiam {
+	margin-top: 17px;
+}
+
+.tasnim {
+	margin-top: 41px;
+}
+
+.dano {
+	margin-top: 45px;
+}
+
+.shows {
+	color: white;
+	text-transform: uppercase;
+	padding: 20px;
+}
+
+.active:hover {
+	border-bottom: solid;
+	border-bottom-color: #e0ae59;
+	border-bottom-width: 7px;
 }
