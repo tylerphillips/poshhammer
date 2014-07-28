@@ -229,6 +229,8 @@ opacity: .4;
 .contact-title {
 	margin-top: 15px;
 	margin-bottom: 5px;
+	font-size: 18px;
+	text-transform: uppercase;
 }
 
 .contact-info {
